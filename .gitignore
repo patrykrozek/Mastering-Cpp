@@ -1,0 +1,12 @@
+# Ignoruj folder Visual Studio
+.vs/
+
+# Ignoruj pliki specyficzne dla użytkownika projektu Visual Studio
+*.vcxproj.user
+
+# Ignoruj pliki kompilacji
+*.obj
+*.pch
+*.lib
+*.dll
+*.exe
