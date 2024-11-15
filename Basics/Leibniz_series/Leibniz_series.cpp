@@ -13,3 +13,6 @@ int main() {
     P = 4 * P;
     cout << P << endl;
 }
+
+
+//Kotek kotek kotek
