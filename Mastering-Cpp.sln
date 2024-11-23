@@ -16,7 +16,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Leibniz_series", "Basics\Le
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program_1", "Basics\Program_1\Program_1.vcxproj", "{9177F5C3-1DFA-4280-B065-8436309AD9E5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise_1_creating_arrays", "..\Exercise_1_creating_arrays\Exercise_1_creating_arrays.vcxproj", "{A7AC4930-4B31-4289-A265-15AC65DD9BC0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise_1_creating_arrays", "Basics\Exercise_1_creating_arrays\Exercise_1_creating_arrays.vcxproj", "{A7AC4930-4B31-4289-A265-15AC65DD9BC0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise_2_random", "Basics\Exercise_2_random\Exercise_2_random.vcxproj", "{F71C407C-0C5B-4CF2-AF11-B756C9E7E892}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +68,14 @@ Global
 		{A7AC4930-4B31-4289-A265-15AC65DD9BC0}.Release|x64.Build.0 = Release|x64
 		{A7AC4930-4B31-4289-A265-15AC65DD9BC0}.Release|x86.ActiveCfg = Release|Win32
 		{A7AC4930-4B31-4289-A265-15AC65DD9BC0}.Release|x86.Build.0 = Release|Win32
+		{F71C407C-0C5B-4CF2-AF11-B756C9E7E892}.Debug|x64.ActiveCfg = Debug|x64
+		{F71C407C-0C5B-4CF2-AF11-B756C9E7E892}.Debug|x64.Build.0 = Debug|x64
+		{F71C407C-0C5B-4CF2-AF11-B756C9E7E892}.Debug|x86.ActiveCfg = Debug|Win32
+		{F71C407C-0C5B-4CF2-AF11-B756C9E7E892}.Debug|x86.Build.0 = Debug|Win32
+		{F71C407C-0C5B-4CF2-AF11-B756C9E7E892}.Release|x64.ActiveCfg = Release|x64
+		{F71C407C-0C5B-4CF2-AF11-B756C9E7E892}.Release|x64.Build.0 = Release|x64
+		{F71C407C-0C5B-4CF2-AF11-B756C9E7E892}.Release|x86.ActiveCfg = Release|Win32
+		{F71C407C-0C5B-4CF2-AF11-B756C9E7E892}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
