@@ -9,6 +9,7 @@ void program_2();
 void printer(int[],int);
 void min(int[], int);
 void max(int[], int);
+double average(int[], int);
 int display_menu();
 //int& min_2(int[t], int);
 //int& max_2(int[t], int);
@@ -17,6 +18,7 @@ int how_many_words(char[]);
 int how_many_big_letters(char[]);
 char* word_creator();
 char* change_size_up(char[]);
+
 
 int main() {
 	while (true) {
@@ -46,7 +48,9 @@ int main() {
 		for (int i = 0; i < n; ++i) {
 			cout << array[i] << '\t';
 		}
+		cout<<endl << "The average value of the array is: " << average(array, n) << endl;
 		cout << '\n' << '\n';
+
 		break;
 	}
 	case 4: {
@@ -64,13 +68,23 @@ int main() {
 
 		break;
 	}
-
+	
 	}
 	
 
 	}
 		
 }
+
+double average(int t[], int n) {
+	double sum = 0;
+	
+	for (int i = 0; i < n; ++i) {
+		sum = sum + t[i];
+	}
+	return sum / n;
+}
+
 
 char* change_size_up(char t[]) {
 	int i = 0;
